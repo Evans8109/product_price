@@ -7,7 +7,7 @@ while True:
     good = input('please enter your product: ')
     if good == 'q':
         break
-    money = input('what is the price: ')    
+    money = input('what is the price: ')
 
     product.append([good, money])
 
@@ -16,3 +16,6 @@ while True:
 
 
 print(product)
+
+for p in product:
+    print('the good is: ', p[0], 'price is: ', p[1] )                       
